@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "strict": false,
+    "rootDir": "./src",
+    "outDir": "dist-rollup",
+    "declaration": true,
+    "declarationDir": "dist-rollup/types",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es2019",
+    "module": "esnext",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
